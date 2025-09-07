@@ -6,10 +6,11 @@
 package main
 
 import (
-	"grolog"
 	"os"
 	"runtime/debug"
 	"time"
+
+	"github.com/tayne3/grolog"
 )
 
 var logger *grolog.Logger
